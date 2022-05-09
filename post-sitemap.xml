@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://ericclose.github.io/Github-Pages-with-Hexo.html</loc>
+        <lastmod>2022-05-09T05:14:56.824Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://ericclose.github.io/V2Ray-TLS-WebSocket-Nginx-with-Cloudflare.html</loc>
         <lastmod>2022-04-15T06:30:33.018Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -49,14 +57,6 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html</loc>
-        <lastmod>2022-04-15T04:51:40.689Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://ericclose.github.io/shadowsocks-qt5-for-Fedora-30.html</loc>
         <lastmod>2022-04-15T04:51:40.689Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -65,7 +65,15 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/how-to-install-and-secure-redis-on-debian-10.html</loc>
+        <loc>https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html</loc>
+        <lastmod>2022-04-15T04:51:40.689Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/git-proxy-config.html</loc>
         <lastmod>2022-04-15T04:51:40.688Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -73,7 +81,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/install-VMware-Workstation-on-Fedora-30.html</loc>
+        <loc>https://ericclose.github.io/how-to-install-and-secure-redis-on-debian-10.html</loc>
         <lastmod>2022-04-15T04:51:40.688Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -89,7 +97,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/git-proxy-config.html</loc>
+        <loc>https://ericclose.github.io/install-VMware-Workstation-on-Fedora-30.html</loc>
         <lastmod>2022-04-15T04:51:40.688Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -129,15 +137,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Installing-Arch-as-a-guest-with-UEFI-and-GPT.html</loc>
-        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/Navicat.html</loc>
+        <loc>https://ericclose.github.io/Pixel-repairs-and-carriers.html</loc>
         <lastmod>2022-04-15T04:51:40.686Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -153,7 +153,15 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Pixel-repairs-and-carriers.html</loc>
+        <loc>https://ericclose.github.io/Installing-Arch-as-a-guest-with-UEFI-and-GPT.html</loc>
+        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/Navicat.html</loc>
         <lastmod>2022-04-15T04:51:40.686Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -171,14 +179,6 @@
     <url>
         <loc>https://ericclose.github.io/StarUML-3-registration.html</loc>
         <lastmod>2022-04-15T04:51:40.686Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/Github-Pages-with-Hexo.html</loc>
-        <lastmod>2022-04-15T04:51:40.685Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
