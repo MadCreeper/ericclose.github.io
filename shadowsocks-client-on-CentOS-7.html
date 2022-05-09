@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-    <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/5.0.0-alpha.102'>
+    <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/5.0.0-alpha.111'>
   <meta name="generator" content="Hexo 6.1.0">
+  <meta name="Volantis" content="5.0.0-alpha.111">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -24,16 +25,15 @@
   <!-- Custom Files headBegin begin-->
   
   <!-- Custom Files headBegin end-->
-  <link rel="preload" href="/css/style.0a26d15c.css" as="style">
+  <link rel="preload" href="/css/style.c447e6f3.css" as="style">
   <link rel="preload" href="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- feed -->
       <link rel="alternate" href="/rss.xml" title="Eric" type="application/rss+xml">
   <!-- 页面元数据 -->
-  <pjax>
   <title>CentOS 7 使用 shadowsocks 客户端科学上网 - Eric</title>
-  <meta name="keywords" content="科学上网,代理,shadowsocks,客户端,翻墙,null">
+  <meta name="keywords" content="代理,科学上网,shadowsocks,客户端,翻墙,null">
   <meta desc name="description" content="编译安装 shadowsocks-libev获取最新的源代码123git clone https://github.com/shadowsocks/shadowsocks-libev.gitcd shadowsocks-libevgit submodule update --init --recursive - Eric - Eric">
   
 <meta property="og:type" content="article">
@@ -46,20 +46,19 @@
 <meta property="article:published_time" content="2019-03-24T16:00:00.000Z">
 <meta property="article:modified_time" content="2022-04-15T04:51:40.689Z">
 <meta property="article:author" content="Eric">
-<meta property="article:tag" content="科学上网">
 <meta property="article:tag" content="代理">
+<meta property="article:tag" content="科学上网">
 <meta property="article:tag" content="shadowsocks">
 <meta property="article:tag" content="客户端">
 <meta property="article:tag" content="翻墙">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-  </pjax>
   <style>
     /* 首屏样式 */
     #safearea {
   display: none;
 }
-/* 
+/*
   * Workaround for Chrome bug, part 1
   * Chunk rendering for all but the first article.
   * /layout/_partial/scripts/content-visibility-scroll-fix.ejs
@@ -1721,8 +1720,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.0a26d15c.css" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.0a26d15c.css"></noscript>
+  <link rel="stylesheet" href="/css/style.c447e6f3.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.c447e6f3.css"></noscript>
     <script>
       let userColorScheme=localStorage.getItem("color-scheme")
       if(userColorScheme){
@@ -1800,9 +1799,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: false,
-    cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.68379f6b.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.0a26d15c.css"}},
+    cdn: {"js":{"app":"/js/app.fda82528.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.d9437285.js","rightMenus":"/js/plugins/rightMenus.0ca6d77c.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.c447e6f3.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1651653690696),
+    lastupdate: new Date(1652062207011),
     sidebar: {
       for_page: ["blogger","category","tagcloud"],
       for_post: ["toc"],
@@ -1829,7 +1828,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         layout: ["home","hr","help","examples","contributors","hr","source_docs","source_theme","hr","print","darkmode","reading","music"],
         music_alwaysShow: true,
         customPicUrl: {"enable":false,"old":null,"new":null}
-      },      
+      },
       rightmenus: {"enable":false,"order":["plugins.navigation","hr","plugins.inputBox","plugins.seletctText","plugins.elementCheck","plugins.elementImage","menus.link","hr","menus.darkMode","plugins.articlePage","music"],"options":{"iconPrefix":"fa-solid","articleShowLink":false,"musicAlwaysShow":false,"corsAnywhere":null},"plugins":{"navigation":[{"id":"left","name":"转到上一页","icon":"fa-solid fa-arrow-left","event":"history.back()","group":"navigation"},{"id":"right","name":"转到下一页","icon":"fa-solid fa-arrow-right","event":"history.forward()","group":"navigation"},{"id":"redo","name":"刷新当前页面","icon":"fa-solid fa-redo","event":"window.location.reload()","group":"navigation"},{"id":"up","name":"回到顶部","icon":"fa-solid fa-arrow-up","event":"VolantisApp.scrolltoElement(volantis.dom.bodyAnchor)","group":"navigation"}],"inputBox":[{"id":"copyPaste","name":"粘贴文本","icon":"fa-solid fa-paste","event":"copyPaste","group":"inputBox"},{"id":"copyAll","name":"全选文本","icon":"fa-solid fa-object-ungroup","event":"copyAll","group":"inputBox"},{"id":"copyCut","name":"剪切文本","icon":"fa-solid fa-cut","event":"copyCut","group":"inputBox"}],"seletctText":[{"id":"copyText","name":"复制文本","icon":"fa-solid fa-copy","event":"copyText","group":"seletctText"},{"id":"searchWord","name":"站内搜索","icon":"fa-solid fa-search","event":"OpenSearch(__text__)","group":"seletctText"},{"id":"bingSearch","name":"必应搜索","icon":"fa-solid fa-search","event":"window.open(`https://cn.bing.com/search?q=${__text__}`)","group":"seletctText"}],"elementCheck":[{"id":"openTab","name":"新标签页打开","icon":"fa-solid fa-external-link-square-alt","event":"window.open(__link__)","group":"elementCheck"},{"id":"copyLink","name":"复制链接地址","icon":"fa-solid fa-link","event":"copyLink","group":"elementCheck"}],"elementImage":[{"id":"copyImg","name":"复制图片","icon":"fa-solid fa-image","event":"copyImg","group":"elementImage"},{"id":"googleImg","name":"谷歌识图","icon":"fa-solid fa-images","event":"window.open(`https://www.google.com.hk/searchbyimage?image_url=${__link__}`)","group":"elementImage"}],"articlePage":[{"id":"printMode","name":"打印页面","icon":"fa-solid fa-print","event":"printMode","group":"articlePage"},{"id":"readMode","name":"阅读模式","icon":"fa-solid fa-book-open","event":"readMode","group":"articlePage"}]},"menus":{"link":[{"id":"help","name":"常见问题","icon":"fa-solid fa-question","link":"https://volantis.js.org/faqs/","group":"link"},{"id":"examples","name":"示例博客","icon":"fa-solid fa-rss","link":"https://volantis.js.org/examples/","group":"link"},{"id":"contributors","name":"加入社区","icon":"fa-solid fa-fan","link":"https://volantis.js.org/contributors/","group":"link"},"hr",{"id":"source_docs","name":"本站源码","icon":"fa-solid fa-code-branch","link":"https://github.com/volantis-x/volantis-docs/","group":"link"},{"id":"source_theme","name":"主题源码","icon":"fa-solid fa-code-branch","link":"https://github.com/volantis-x/hexo-theme-volantis/","group":"link"}],"darkMode":[{"id":"darkMode","name":"暗黑模式","icon":"fa-solid fa-moon","event":"volantis.dark.toggle()","group":"darkMode"}]}}
     }
   }
@@ -1979,6 +1978,16 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     push: volantis.pjax.method.complete.push,
     error: volantis.pjax.method.error.push,
     send: volantis.pjax.method.send.push,
+  });
+  /******************** RightMenu ********************************/
+  // volantis.rightmenu.handle(callBack[,"callBackName"]) 外部菜单项控制
+  // 可在 volantis.mouseEvent 处获取右键事件
+  volantis.rightmenu = {};
+  volantis.rightmenu.method = {
+    handle: new RunItem(),
+  }
+  volantis.rightmenu = Object.assign(volantis.rightmenu, {
+    handle: volantis.rightmenu.method.handle.push,
   });
   /********************  Dark Mode  ********************************/
   // /layout/_partial/scripts/darkmode.ejs
@@ -2159,12 +2168,12 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       opt.top += option.addTop
     }
     if (!("observerDic" in option)) {
-      option.observerDic = 25
+      option.observerDic = 100
     }
     // 滚动
     window.scrollTo(opt);
     // 监视器
-    // 监视并矫正元素滚动到指定位置 
+    // 监视并矫正元素滚动到指定位置
     // 用于处理 lazyload 引起的 cls 导致的定位失败问题
     // option.observer = false
     if (option.observer) {
@@ -2179,6 +2188,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       },1000)
     }
   }
+  /********************** Content Visibility ********************************/
+  // 见 source/css/first.styl 如果遇到任何问题 删除 .post-story 即可
+  // 一个元素被声明 content-visibility 属性后 如果元素不在 viewport 中 浏览器不会计算其后代元素样式和属性 从而节省 Style & Layout 耗时
+  // content-visibility 的副作用: 锚点失效 等等(实验初期 暂不明确), 使用此方法清除样式
+  volantis.cleanContentVisibility = ()=>{
+    if (document.querySelector(".post-story")) {
+      console.log("cleanContentVisibility");
+      document.querySelectorAll(".post-story").forEach(e=>{
+        e.classList.remove("post-story")
+      })
+    }
+  }
+  /******************************************************************************/
   /******************************************************************************/
   /******************************************************************************/
   //图像加载出错时的处理
@@ -2237,7 +2259,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
             
               <li>
-                <a class="menuitem flat-box faa-parent animated-hover" 
+                <a class="menuitem flat-box faa-parent animated-hover"
                 href="/" title="首页"
                   
                   
@@ -2254,7 +2276,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
             
               <li>
-                <a class="menuitem flat-box faa-parent animated-hover" 
+                <a class="menuitem flat-box faa-parent animated-hover"
                 href="/categories/" title="分类"
                   
                   
@@ -2271,7 +2293,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
             
               <li>
-                <a class="menuitem flat-box faa-parent animated-hover" 
+                <a class="menuitem flat-box faa-parent animated-hover"
                 href="/tags/" title="标签"
                   
                   
@@ -2288,7 +2310,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
             
               <li>
-                <a class="menuitem flat-box faa-parent animated-hover" 
+                <a class="menuitem flat-box faa-parent animated-hover"
                 href="/archives/" title="归档"
                   
                   
@@ -2305,7 +2327,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
             
               <li>
-                <a class="menuitem flat-box faa-parent animated-hover" 
+                <a class="menuitem flat-box faa-parent animated-hover"
                 href="/friends/" title="友链"
                   
                   
@@ -2322,7 +2344,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
             
               <li>
-                <a class="menuitem flat-box faa-parent animated-hover" 
+                <a class="menuitem flat-box faa-parent animated-hover"
                 href="/about/" title="关于"
                   
                   
@@ -2358,7 +2380,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               <li>
-                <a class="menuitem flat-box faa-parent animated-hover" 
+                <a class="menuitem flat-box faa-parent animated-hover"
                 href="/" title="首页"
                   
                   
@@ -2375,7 +2397,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               <li>
-                <a class="menuitem flat-box faa-parent animated-hover" 
+                <a class="menuitem flat-box faa-parent animated-hover"
                 href="/categories/" title="分类"
                   
                   
@@ -2392,7 +2414,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               <li>
-                <a class="menuitem flat-box faa-parent animated-hover" 
+                <a class="menuitem flat-box faa-parent animated-hover"
                 href="/tags/" title="标签"
                   
                   
@@ -2409,7 +2431,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               <li>
-                <a class="menuitem flat-box faa-parent animated-hover" 
+                <a class="menuitem flat-box faa-parent animated-hover"
                 href="/archives/" title="归档"
                   
                   
@@ -2426,7 +2448,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               <li>
-                <a class="menuitem flat-box faa-parent animated-hover" 
+                <a class="menuitem flat-box faa-parent animated-hover"
                 href="/friends/" title="友链"
                   
                   
@@ -2443,7 +2465,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               <li>
-                <a class="menuitem flat-box faa-parent animated-hover" 
+                <a class="menuitem flat-box faa-parent animated-hover"
                 href="/about/" title="关于"
                   
                   
@@ -2694,8 +2716,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
   
-  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>科学上网</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E4%BB%A3%E7%90%86/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>代理</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/shadowsocks/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>shadowsocks</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E5%AE%A2%E6%88%B7%E7%AB%AF/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>客户端</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%BF%BB%E5%A2%99/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>翻墙</p></a></div>
-  <span hidden itemprop="keywords">科学上网 代理 shadowsocks 客户端 翻墙</span>
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E4%BB%A3%E7%90%86/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>代理</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>科学上网</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/shadowsocks/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>shadowsocks</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E5%AE%A2%E6%88%B7%E7%AB%AF/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>客户端</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%BF%BB%E5%A2%99/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>翻墙</p></a></div>
+  <span hidden itemprop="keywords">代理 科学上网 shadowsocks 客户端 翻墙</span>
 
 
         
@@ -2796,18 +2818,18 @@ K2P (B2)
 
   
 
-  
-  <article class="post white-box reveal shadow floatable blur" id="comments">
+
+  <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
       <meta itemprop="discussionUrl" content="/shadowsocks-client-on-CentOS-7.html#comments">
     </span>
     <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
-    
+
     <div id="layoutHelper-comments"></div>
 
   </article>
-  
+
 
 
 
@@ -3020,7 +3042,7 @@ K2P (B2)
 
 <!-- internal -->
 
-<script src="/js/app.3690b000.js"></script>
+<script src="/js/app.fda82528.js"></script>
 
 
 
@@ -3385,7 +3407,6 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
 
-		
 
 
 
@@ -3480,6 +3501,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
     // 方案一：
     volantis.activateNavIndex=0
+    activateNavByIndex(navItems[volantis.activateNavIndex])
     volantis.scroll.push(()=>{
       if (targets[0].getBoundingClientRect().top >= 0) {
         volantis.activateNavIndex = 0
@@ -3639,12 +3661,12 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Eric","url":"https://ericclose.github.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Eric","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://ericclose.github.io/","sameAs":["https://github.com/volantis-x"],"description":"Never give up!"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://ericclose.github.io/","name":"Eric"}},{"@type":"ListItem","position":2,"item":{"@id":"https://ericclose.github.io/categories/Proxy/","name":"Proxy"}},{"@type":"ListItem","position":3,"item":{"@id":"https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html","name":"CentOS 7 使用 shadowsocks 客户端科学上网"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"CentOS 7 使用 shadowsocks 客户端科学上网","description":"编译安装 shadowsocks-libev获取最新的源代码123git clone https://github.com/shadowsocks/shadowsocks-libev.gitcd shadowsocks-libevgit submodule update --init --recursive","datePublished":"2019-03-24T16:00:00.000Z","dateModified":"2022-04-15T04:51:40.689Z","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html"},"author":{"@type":"Person","name":"Eric","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://ericclose.github.io/"},"publisher":{"@type":"Organization","name":"Eric","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html","wordCount":154,"articleSection":"Proxy","keywords":"科学上网,代理,shadowsocks,客户端,翻墙","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Eric","url":"https://ericclose.github.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Eric","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://ericclose.github.io/","sameAs":["https://github.com/volantis-x"],"description":"Never give up!"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://ericclose.github.io/","name":"Eric"}},{"@type":"ListItem","position":2,"item":{"@id":"https://ericclose.github.io/categories/Proxy/","name":"Proxy"}},{"@type":"ListItem","position":3,"item":{"@id":"https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html","name":"CentOS 7 使用 shadowsocks 客户端科学上网"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"CentOS 7 使用 shadowsocks 客户端科学上网","description":"编译安装 shadowsocks-libev获取最新的源代码123git clone https://github.com/shadowsocks/shadowsocks-libev.gitcd shadowsocks-libevgit submodule update --init --recursive","datePublished":"2019-03-24T16:00:00.000Z","dateModified":"2022-04-15T04:51:40.689Z","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html"},"author":{"@type":"Person","name":"Eric","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://ericclose.github.io/"},"publisher":{"@type":"Organization","name":"Eric","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html","wordCount":154,"articleSection":"Proxy","keywords":"代理,科学上网,shadowsocks,客户端,翻墙","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
       
-        <!-- 
+        <!--
   pjax重载区域接口：
   1.  <pjax></pjax> 标签 pjax 标签必须存在于所有页面 否则 pjax error
   2.  script[data-pjax]
@@ -3663,6 +3685,9 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
       pjax = new Pjax({
         elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([pjax-fancybox]):not([onclick="return false;"]):not([onclick="return!1"]):not([target="_blank"]):not([target="view_window"]):not([href$=".xml"])',
         selectors: [
+          "head title",
+          "head meta[name=keywords]",
+          "head meta[name=description]",
           
           "#l_main",
           "#pjax-header-nav-list",
