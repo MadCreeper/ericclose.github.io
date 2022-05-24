@@ -391,7 +391,7 @@
       <link href="/Office_Tool_Plus_usage.html"/>
       <url>/Office_Tool_Plus_usage.html</url>
       
-        <content type="html"><![CDATA[<div class="story post-story"><h2 id="下载-Office-Tool-Plus"><a href="#下载-Office-Tool-Plus" class="headerlink" title="下载 Office Tool Plus"></a>下载 Office Tool Plus</h2><ul><li><a href="https://github.com/YerongAI/Office-Tool/releases/latest">下载页面</a></li></ul><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://cdn.jsdelivr.net/gh/ericclose/images/Office/1.png' data-fancybox='default' data-caption='下载页面'><img fancybox itemprop="contentUrl" src="https://cdn.jsdelivr.net/gh/ericclose/images/Office/1.png" alt="下载页面"></a><span class='image-caption'>下载页面</span></div></div><p>选择带运行时解压缩版本，点击下载</p></div><div class="story post-story"><h2 id="解压运行-Office-Tools"><a href="#解压运行-Office-Tools" class="headerlink" title="解压运行 Office Tools"></a>解压运行 Office Tools</h2><p>解压缩完后，点击主程序 <code>Office Tool Plus.exe</code> 即可</p></div><div class="story post-story"><h2 id="部署选项"><a href="#部署选项" class="headerlink" title="部署选项"></a>部署选项</h2><ul><li><p>主界面『部署』→</p></li><li><p>『产品』→『添加产品』：选择任意<strong>批量许可证版本</strong>即可。首选『<strong>Office 专业增强版 2019 - 批量许可证</strong>』（选择批量许可证版本是因为<strong>只有该版本支持 KMS 激活方式</strong>）</p><p>『应用程序』：根据自身需求勾选即可（常见三件套：Excel、PowerPoint、Word）</p><p>『语言』：看你喜欢</p><p>『部署设置』：</p><ul><li><p>『体系结构』：不是吧不是吧，这个年代了，还有人不是用64位的吧？<strong>首选64位</strong>（当然你的电脑如果是32位置处理器，或是32位操作系统，自然选择32位）</p></li><li><p>『通道』：『Office 2019 企业长期版』</p></li></ul></li></ul><p>当您完成上述配置后，找到右上角的『开始部署』，耐心等其完成在线下载、安装的流程</p></div><div class="story post-story"><h2 id="关于激活"><a href="#关于激活" class="headerlink" title="关于激活"></a>关于激活</h2><ul><li><p>安装完成后首先打开 Office 套件任意一个程序，完成初始化设置，新建一个文档后关闭窗口</p></li><li><p>然后『<strong>以管理员身份运行</strong>』cmd 命令提示符，执行如下命令：</p></li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd /d &quot;C:\Program Files\Microsoft Office\Office16&quot;</span><br><span class="line">cscript ospp.vbs /sethst:kms.03k.org</span><br><span class="line">cscript ospp.vbs /act</span><br><span class="line"></span><br><span class="line">cscript OSPP.VBS /dstatus</span><br></pre></td></tr></table></figure></div><div class="story post-story"><h2 id="检验激活是否成功"><a href="#检验激活是否成功" class="headerlink" title="检验激活是否成功"></a>检验激活是否成功</h2><p>当您执行完上面最后一行命令时，反馈的结果就可以看到是否激活成功，看不懂程序反馈的内容？没有关系，您可以这么做：</p><p>任意打开 Office 套件的一个程序，找到左下角的『账户选项』，即可在『产品信息』区域看到激活的情况，如果显示『<strong>激活的产品</strong>』：『Microsoft Office 专业增强版 2019』 字样即说明激活成功。</p><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://cdn.jsdelivr.net/gh/ericclose/images/Office/2.png' data-fancybox='default' data-caption='激活成功'><img fancybox itemprop="contentUrl" src="https://cdn.jsdelivr.net/gh/ericclose/images/Office/2.png" alt="激活成功"></a><span class='image-caption'>激活成功</span></div></div></div>]]></content>
+        <content type="html"><![CDATA[<div class="story post-story"><h2 id="下载-Office-Tool-Plus"><a href="#下载-Office-Tool-Plus" class="headerlink" title="下载 Office Tool Plus"></a>下载 Office Tool Plus</h2><ul><li><a href="https://github.com/YerongAI/Office-Tool/releases/latest">下载页面</a></li></ul><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://cdn.jsdelivr.net/gh/ericclose/images/Office/1.png' data-fancybox='default' data-caption='下载页面'><img fancybox itemprop="contentUrl" src="https://cdn.jsdelivr.net/gh/ericclose/images/Office/1.png" alt="下载页面"></a><span class='image-caption'>下载页面</span></div></div><p>选择带运行时解压缩版本，点击下载</p></div><div class="story post-story"><h2 id="解压运行-Office-Tools"><a href="#解压运行-Office-Tools" class="headerlink" title="解压运行 Office Tools"></a>解压运行 Office Tools</h2><p>解压缩完后，点击主程序 <code>Office Tool Plus.exe</code> 即可</p></div><div class="story post-story"><h2 id="部署选项"><a href="#部署选项" class="headerlink" title="部署选项"></a>部署选项</h2><ul><li><p>主界面『部署』→</p></li><li><p>『产品』→『添加产品』：选择任意<strong>批量许可证版本</strong>即可。首选『<strong>Office 专业增强版 2019 - 批量许可证</strong>』（选择批量许可证版本是因为<strong>只有该版本支持 KMS 激活方式</strong>）</p><p>『应用程序』：根据自身需求勾选即可（常见三件套：Excel、PowerPoint、Word）</p><p>『语言』：看你喜欢</p><p>『部署设置』：</p><ul><li><p>『体系结构』：不是吧不是吧，这个年代了，还有人不是用64位处理器和系统的吗？<strong>首选64位</strong>（当然你的电脑如果是 32 位的处理器或操作系统，自然选择 32 位）</p></li><li><p>『通道』：『Office 2019 企业长期版』</p></li></ul></li></ul><p>当您完成上述配置后，找到右上角的『开始部署』，耐心等其完成在线下载、安装的流程</p></div><div class="story post-story"><h2 id="关于激活"><a href="#关于激活" class="headerlink" title="关于激活"></a>关于激活</h2><ul><li><p>安装完成后首先打开 Office 套件任意一个程序，完成初始化设置，新建一个文档后关闭窗口</p></li><li><p>然后『<strong>以管理员身份运行</strong>』cmd 命令提示符，执行如下命令：</p></li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd /d &quot;C:\Program Files\Microsoft Office\Office16&quot;</span><br><span class="line">cscript ospp.vbs /sethst:kms.03k.org</span><br><span class="line">cscript ospp.vbs /act</span><br><span class="line"></span><br><span class="line">cscript OSPP.VBS /dstatus</span><br></pre></td></tr></table></figure></div><div class="story post-story"><h2 id="检验激活是否成功"><a href="#检验激活是否成功" class="headerlink" title="检验激活是否成功"></a>检验激活是否成功</h2><p>当您执行完上面最后一行命令时，反馈的结果就可以看到是否激活成功，看不懂程序反馈的内容？没有关系，您可以这么做：</p><p>任意打开 Office 套件的一个程序，找到左下角的『账户选项』，即可在『产品信息』区域看到激活的情况，如果显示『<strong>激活的产品</strong>』：『Microsoft Office 专业增强版 2019』 字样即说明激活成功。</p><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://cdn.jsdelivr.net/gh/ericclose/images/Office/2.png' data-fancybox='default' data-caption='激活成功'><img fancybox itemprop="contentUrl" src="https://cdn.jsdelivr.net/gh/ericclose/images/Office/2.png" alt="激活成功"></a><span class='image-caption'>激活成功</span></div></div></div>]]></content>
       
       
       <categories>
@@ -402,10 +402,6 @@
       
       
         <tags>
-            
-            <tag> 破解 </tag>
-            
-            <tag> 激活 </tag>
             
             <tag> Office </tag>
             
@@ -422,6 +418,10 @@
             <tag> Visio </tag>
             
             <tag> KMS </tag>
+            
+            <tag> 激活 </tag>
+            
+            <tag> 破解 </tag>
             
             <tag> crack </tag>
             
@@ -692,11 +692,11 @@
       
         <tags>
             
-            <tag> Navicat </tag>
+            <tag> 激活 </tag>
             
             <tag> 破解 </tag>
             
-            <tag> 激活 </tag>
+            <tag> Navicat </tag>
             
         </tags>
       
