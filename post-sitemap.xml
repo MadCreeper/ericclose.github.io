@@ -10,7 +10,7 @@
 
     <url>
         <loc>https://ericclose.github.io/Office_Tool_Plus_usage.html</loc>
-        <lastmod>2022-05-24T07:57:38.381Z</lastmod>
+        <lastmod>2022-05-24T08:05:05.422Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -73,14 +73,6 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/how-to-install-and-secure-redis-on-debian-10.html</loc>
-        <lastmod>2022-04-15T04:51:40.688Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://ericclose.github.io/git-proxy-config.html</loc>
         <lastmod>2022-04-15T04:51:40.688Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -90,6 +82,14 @@
 
     <url>
         <loc>https://ericclose.github.io/install-VMware-Workstation-on-Fedora-30.html</loc>
+        <lastmod>2022-04-15T04:51:40.688Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/how-to-install-and-secure-redis-on-debian-10.html</loc>
         <lastmod>2022-04-15T04:51:40.688Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -113,6 +113,14 @@
     </url>
 
     <url>
+        <loc>https://ericclose.github.io/Windows-diskpart-tutorial.html</loc>
+        <lastmod>2022-04-15T04:51:40.687Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://ericclose.github.io/access-onionland-with-Tor-on-CentOS-7.html</loc>
         <lastmod>2022-04-15T04:51:40.687Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -129,8 +137,24 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Windows-diskpart-tutorial.html</loc>
-        <lastmod>2022-04-15T04:51:40.687Z</lastmod>
+        <loc>https://ericclose.github.io/Navicat.html</loc>
+        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/Installing-Arch-as-a-guest-with-UEFI-and-GPT.html</loc>
+        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/Pixel-modem-mod-for-China-Telecom.html</loc>
+        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -153,14 +177,6 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Installing-Arch-as-a-guest-with-UEFI-and-GPT.html</loc>
-        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://ericclose.github.io/StarUML-3-registration.html</loc>
         <lastmod>2022-04-15T04:51:40.686Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -169,23 +185,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Navicat.html</loc>
-        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/Pixel-modem-mod-for-China-Telecom.html</loc>
-        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/Google-setup-wizard.html</loc>
+        <loc>https://ericclose.github.io/Install-LineageOS-on-sagit.html</loc>
         <lastmod>2022-04-15T04:51:40.685Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -193,7 +193,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Install-LineageOS-on-sagit.html</loc>
+        <loc>https://ericclose.github.io/Google-setup-wizard.html</loc>
         <lastmod>2022-04-15T04:51:40.685Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
