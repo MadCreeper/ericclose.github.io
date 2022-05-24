@@ -132,13 +132,13 @@
       
       <category domain="https://ericclose.github.io/tags/Google/">Google</category>
       
-      <category domain="https://ericclose.github.io/tags/Pixel/">Pixel</category>
-      
-      <category domain="https://ericclose.github.io/tags/Pixel-XL/">Pixel XL</category>
-      
       <category domain="https://ericclose.github.io/tags/sailfish/">sailfish</category>
       
       <category domain="https://ericclose.github.io/tags/marlin/">marlin</category>
+      
+      <category domain="https://ericclose.github.io/tags/Pixel/">Pixel</category>
+      
+      <category domain="https://ericclose.github.io/tags/Pixel-XL/">Pixel XL</category>
       
       <category domain="https://ericclose.github.io/tags/modem/">modem</category>
       
@@ -172,11 +172,11 @@
       
       <category domain="https://ericclose.github.io/tags/Google/">Google</category>
       
+      <category domain="https://ericclose.github.io/tags/pixel/">pixel</category>
+      
       <category domain="https://ericclose.github.io/tags/sailfish/">sailfish</category>
       
       <category domain="https://ericclose.github.io/tags/marlin/">marlin</category>
-      
-      <category domain="https://ericclose.github.io/tags/pixel/">pixel</category>
       
       
       <comments>https://ericclose.github.io/Pixel-repairs-and-carriers.html#disqus_thread</comments>
@@ -417,16 +417,22 @@
     </item>
     
     <item>
-      <title>使用 Office 部署工具安装 Visio 2016（KMS激活）</title>
-      <link>https://ericclose.github.io/use-the-ODT-to-install-VOL-ed-of-Visio-2016.html</link>
-      <guid>https://ericclose.github.io/use-the-ODT-to-install-VOL-ed-of-Visio-2016.html</guid>
+      <title>Office Tool Plus 使用教程（KMS 激活）</title>
+      <link>https://ericclose.github.io/Office_Tool_Plus_usage.html</link>
+      <guid>https://ericclose.github.io/Office_Tool_Plus_usage.html</guid>
       <pubDate>Mon, 26 Aug 2019 05:29:59 GMT</pubDate>
       
-      <description>&lt;p&gt;本文教你学习如何使用 Office 部署工具来安装 Visio 2016 的KMS版本（批量许可版本）&lt;/p&gt;</description>
+        
+        
+          
+          
+      <description>&lt;div class=&quot;story post-story&quot;&gt;&lt;h2 id=&quot;Office-Tool-Plus-使用方法&quot;&gt;&lt;a href=&quot;#Office-Tool-Plus-使用方法&quot; class=&quot;headerlink&quot; title=&quot;Office Tool Plus</description>
+          
+        
       
       
       
-      <content:encoded><![CDATA[<p>本文教你学习如何使用 Office 部署工具来安装 Visio 2016 的KMS版本（批量许可版本）</p><span id="more"></span><ol><li><p>从 Microsoft 下载中心<a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117">下载</a>Office 部署工具。</p></li><li><p>双击下载的工具，如下图，勾选“Click here to…”，点击“Continue”；</p></li></ol><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class="img-wrap"><div class="img-bg"><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://cdn.jsdelivr.net/gh/ericclose/images/Visio/1.png' data-fancybox='default' data-caption='image'><img fancybox itemprop="contentUrl" class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/Visio/1.png" alt="image" style="width:500px;"/></a><span></span></div></div></div></div><ol start="3"><li>该工具会解压得到一些文件（setup.exe和*.xml），如下图所示，选择解压的目录。</li></ol><p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/Visio/2.png"></p><ol start="4"><li><p>在解压得到的目录下删除所有xml文件。</p></li><li><p>创建要与 Office 部署工具一起使用的 <strong>configuration.xml</strong> 文件以下载和安装 Visio 的VOL版本。 <strong>configuration.xml</strong> 的内容如下：</p></li></ol><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Configuration</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">Add</span> <span class="attr">OfficeClientEdition</span>=<span class="string">&quot;64&quot;</span> &gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">Product</span> <span class="attr">ID</span>=<span class="string">&quot;VisioProXVolume&quot;</span> <span class="attr">PIDKEY</span>=<span class="string">&quot;69WXN-MBYV6-22PQG-3WGHK-RM6XC&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Language</span> <span class="attr">ID</span>=<span class="string">&quot;zh-cn&quot;</span> /&gt;</span></span><br><span class="line">     <span class="tag">&lt;/<span class="name">Product</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;/<span class="name">Add</span>&gt;</span>  </span><br><span class="line"><span class="tag">&lt;/<span class="name">Configuration</span>&gt;</span></span><br></pre></td></tr></table></figure><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://cdn.jsdelivr.net/gh/ericclose/images/Visio/3.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://cdn.jsdelivr.net/gh/ericclose/images/Visio/3.png"></a><span></span></div></div><ol start="6"><li><p>在这个目录下，按住Shift键（不要松）然后鼠标右键 <strong>打开powershell</strong></p></li><li><p>开始下载 Visio。输入命令为：</p></li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.\setup.exe /download configuration.xml</span><br></pre></td></tr></table></figure><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://cdn.jsdelivr.net/gh/ericclose/images/Visio/4.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://cdn.jsdelivr.net/gh/ericclose/images/Visio/4.png"></a><span></span></div></div><ol start="8"><li>下载完成后，powershell会再次等待输入，这是输入命令安装Viso：</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.\setup.exe /configure configuration.xml</span><br></pre></td></tr></table></figure><ol start="9"><li>以 <strong>管理员权限</strong> 打开 <strong>cmd</strong> ，切换工作目录，命令如下：</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /d C:\Program Files\Microsoft Office\Office16</span><br></pre></td></tr></table></figure><ol start="10"><li>添加KMS服务器</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cscript ospp.vbs /sethst:kms.03k.org</span><br></pre></td></tr></table></figure><ol start="11"><li>开始激活</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cscript ospp.vbs /act</span><br></pre></td></tr></table></figure><ol start="12"><li>大功告成</li></ol><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://cdn.jsdelivr.net/gh/ericclose/images/Visio/cover.png' data-fancybox='default' data-caption='成果图'><img fancybox itemprop="contentUrl" src="https://cdn.jsdelivr.net/gh/ericclose/images/Visio/cover.png" alt="成果图"></a><span class='image-caption'>成果图</span></div></div>]]></content:encoded>
+      <content:encoded><![CDATA[<div class="story post-story"><h2 id="Office-Tool-Plus-使用方法"><a href="#Office-Tool-Plus-使用方法" class="headerlink" title="Office Tool Plus 使用方法"></a>Office Tool Plus 使用方法</h2><h3 id="下载-Office-Tool-Plus"><a href="#下载-Office-Tool-Plus" class="headerlink" title="下载 Office Tool Plus"></a>下载 Office Tool Plus</h3><ul><li><a href="https://github.com/YerongAI/Office-Tool/releases/latest">下载页面</a></li></ul><p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/Office/1.png" alt="下载页面"></p><p>选择带运行时解压缩版本，点击下载</p><h3 id="解压运行-Office-Tools"><a href="#解压运行-Office-Tools" class="headerlink" title="解压运行 Office Tools"></a>解压运行 Office Tools</h3><p>解压缩完后，点击主程序 <code>Office Tool Plus.exe</code> 即可</p><h3 id="部署选项"><a href="#部署选项" class="headerlink" title="部署选项"></a>部署选项</h3><ul><li><p>主界面『部署』→</p></li><li><p>『产品』→『添加产品』：选择任意<strong>批量许可证版本</strong>即可。首选『<strong>Office 专业增强版 2019 - 批量许可证</strong>』（选择批量许可证版本是因为<strong>只有该版本支持 KMS 激活方式</strong>）</p><p>『应用程序』：根据自身需求勾选即可（常见三件套：Excel、PowerPoint、Word）</p><p>『语言』：看你喜欢</p><p>『部署设置』：</p><ul><li><p>『体系结构』：不是吧不是吧，这个年代了，还有人不是用64位的吧？<strong>首选64位</strong>（当然你的电脑如果是32位置处理器，或是32位操作系统，自然选择32位）</p></li><li><p>『通道』：『Office 2019 企业长期版』</p></li></ul></li></ul><p>当您完成上述配置后，找到右上角的『开始部署』，耐心等其完成在线下载、安装的流程</p><h3 id="关于激活"><a href="#关于激活" class="headerlink" title="关于激活"></a>关于激活</h3><ul><li><p>安装完成后首先打开 Office 套件任意一个程序，完成初始化设置，新建一个文档后关闭窗口</p></li><li><p>然后『<strong>以管理员身份运行</strong>』cmd 命令提示符，执行如下命令：</p></li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd /d &quot;C:\Program Files\Microsoft Office\Office16&quot;</span><br><span class="line">cscript ospp.vbs /sethst:kms.03k.org</span><br><span class="line">cscript ospp.vbs /act</span><br><span class="line"></span><br><span class="line">cscript OSPP.VBS /dstatus</span><br></pre></td></tr></table></figure><h3 id="检验激活是否成功"><a href="#检验激活是否成功" class="headerlink" title="检验激活是否成功"></a>检验激活是否成功</h3><p>当您执行完上面最后一行命令时，反馈的结果就可以看到是否激活成功，看不懂程序反馈的内容？没有关系，您可以这么做：</p><p>任意打开 Office 套件的一个程序，找到左下角的『账户选项』，即可在『产品信息』区域看到激活的情况，如果显示『<strong>激活的产品</strong>』：『Microsoft Office 专业增强版 2019』 字样即说明激活成功。</p><p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/Office/2.png" alt="激活成功"></p></div>]]></content:encoded>
       
       
       <category domain="https://ericclose.github.io/categories/Windows/">Windows</category>
@@ -434,10 +440,28 @@
       
       <category domain="https://ericclose.github.io/tags/Office/">Office</category>
       
+      <category domain="https://ericclose.github.io/tags/Office-Tool/">Office Tool</category>
+      
+      <category domain="https://ericclose.github.io/tags/Office-Tool-Plus/">Office Tool Plus</category>
+      
+      <category domain="https://ericclose.github.io/tags/Word/">Word</category>
+      
+      <category domain="https://ericclose.github.io/tags/Excel/">Excel</category>
+      
+      <category domain="https://ericclose.github.io/tags/PowerPoint/">PowerPoint</category>
+      
       <category domain="https://ericclose.github.io/tags/Visio/">Visio</category>
       
+      <category domain="https://ericclose.github.io/tags/KMS/">KMS</category>
       
-      <comments>https://ericclose.github.io/use-the-ODT-to-install-VOL-ed-of-Visio-2016.html#disqus_thread</comments>
+      <category domain="https://ericclose.github.io/tags/%E6%BF%80%E6%B4%BB/">激活</category>
+      
+      <category domain="https://ericclose.github.io/tags/%E7%A0%B4%E8%A7%A3/">破解</category>
+      
+      <category domain="https://ericclose.github.io/tags/crack/">crack</category>
+      
+      
+      <comments>https://ericclose.github.io/Office_Tool_Plus_usage.html#disqus_thread</comments>
       
     </item>
     
@@ -484,9 +508,9 @@
       <category domain="https://ericclose.github.io/categories/Proxy/">Proxy</category>
       
       
-      <category domain="https://ericclose.github.io/tags/%E4%BB%A3%E7%90%86/">代理</category>
-      
       <category domain="https://ericclose.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/">科学上网</category>
+      
+      <category domain="https://ericclose.github.io/tags/%E4%BB%A3%E7%90%86/">代理</category>
       
       <category domain="https://ericclose.github.io/tags/Fedora/">Fedora</category>
       
@@ -575,9 +599,9 @@
       <category domain="https://ericclose.github.io/categories/Proxy/">Proxy</category>
       
       
-      <category domain="https://ericclose.github.io/tags/%E4%BB%A3%E7%90%86/">代理</category>
-      
       <category domain="https://ericclose.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/">科学上网</category>
+      
+      <category domain="https://ericclose.github.io/tags/%E4%BB%A3%E7%90%86/">代理</category>
       
       <category domain="https://ericclose.github.io/tags/shadowsocks/">shadowsocks</category>
       
@@ -700,11 +724,11 @@
       <category domain="https://ericclose.github.io/categories/Windows/">Windows</category>
       
       
-      <category domain="https://ericclose.github.io/tags/Navicat/">Navicat</category>
+      <category domain="https://ericclose.github.io/tags/%E6%BF%80%E6%B4%BB/">激活</category>
       
       <category domain="https://ericclose.github.io/tags/%E7%A0%B4%E8%A7%A3/">破解</category>
       
-      <category domain="https://ericclose.github.io/tags/%E6%BF%80%E6%B4%BB/">激活</category>
+      <category domain="https://ericclose.github.io/tags/Navicat/">Navicat</category>
       
       
       <comments>https://ericclose.github.io/Navicat.html#disqus_thread</comments>

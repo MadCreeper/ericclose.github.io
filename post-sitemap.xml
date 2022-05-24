@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://ericclose.github.io/Office_Tool_Plus_usage.html</loc>
+        <lastmod>2022-05-24T07:57:38.381Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://ericclose.github.io/V2Ray-TLS-WebSocket-Nginx-with-Cloudflare.html</loc>
         <lastmod>2022-05-09T05:31:26.483Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -25,14 +33,6 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/use-the-ODT-to-install-VOL-ed-of-Visio-2016.html</loc>
-        <lastmod>2022-04-15T04:51:40.690Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://ericclose.github.io/you-get-tutorial.html</loc>
         <lastmod>2022-04-15T04:51:40.690Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -41,7 +41,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/run-QQ-with-Sandboxie-Plus.html</loc>
+        <loc>https://ericclose.github.io/phicomm-k2p-Padavan.html</loc>
         <lastmod>2022-04-15T04:51:40.689Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -49,7 +49,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/phicomm-k2p-Padavan.html</loc>
+        <loc>https://ericclose.github.io/run-QQ-with-Sandboxie-Plus.html</loc>
         <lastmod>2022-04-15T04:51:40.689Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -89,7 +89,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/install-macOS-10-13-on-VMware-workstation.html</loc>
+        <loc>https://ericclose.github.io/install-VMware-Workstation-on-Fedora-30.html</loc>
         <lastmod>2022-04-15T04:51:40.688Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -97,7 +97,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/install-VMware-Workstation-on-Fedora-30.html</loc>
+        <loc>https://ericclose.github.io/install-macOS-10-13-on-VMware-workstation.html</loc>
         <lastmod>2022-04-15T04:51:40.688Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -107,14 +107,6 @@
     <url>
         <loc>https://ericclose.github.io/libinput-gestures-on-Arch-Linux-with-KDE.html</loc>
         <lastmod>2022-04-15T04:51:40.688Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/Windows-diskpart-tutorial.html</loc>
-        <lastmod>2022-04-15T04:51:40.687Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -137,24 +129,8 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Installing-Arch-as-a-guest-with-UEFI-and-GPT.html</loc>
-        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/Navicat.html</loc>
-        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/Pixel-modem-mod-for-China-Telecom.html</loc>
-        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
+        <loc>https://ericclose.github.io/Windows-diskpart-tutorial.html</loc>
+        <lastmod>2022-04-15T04:51:40.687Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -177,7 +153,31 @@
     </url>
 
     <url>
+        <loc>https://ericclose.github.io/Installing-Arch-as-a-guest-with-UEFI-and-GPT.html</loc>
+        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://ericclose.github.io/StarUML-3-registration.html</loc>
+        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/Navicat.html</loc>
+        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/Pixel-modem-mod-for-China-Telecom.html</loc>
         <lastmod>2022-04-15T04:51:40.686Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
