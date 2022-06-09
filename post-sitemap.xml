@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://ericclose.github.io/V2Ray-TLS-WebSocket-Nginx-with-Cloudflare.html</loc>
+        <lastmod>2022-06-09T04:29:54.306Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://ericclose.github.io/Github-Pages-with-Hexo.html</loc>
         <lastmod>2022-06-09T03:42:55.677Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -19,14 +27,6 @@
     <url>
         <loc>https://ericclose.github.io/Office_Tool_Plus_usage.html</loc>
         <lastmod>2022-05-24T08:14:15.301Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/V2Ray-TLS-WebSocket-Nginx-with-Cloudflare.html</loc>
-        <lastmod>2022-05-09T05:31:26.483Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -97,6 +97,14 @@
     </url>
 
     <url>
+        <loc>https://ericclose.github.io/libinput-gestures-on-Arch-Linux-with-KDE.html</loc>
+        <lastmod>2022-04-15T04:51:40.688Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://ericclose.github.io/install-macOS-10-13-on-VMware-workstation.html</loc>
         <lastmod>2022-04-15T04:51:40.688Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -105,8 +113,8 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/libinput-gestures-on-Arch-Linux-with-KDE.html</loc>
-        <lastmod>2022-04-15T04:51:40.688Z</lastmod>
+        <loc>https://ericclose.github.io/Windows-diskpart-tutorial.html</loc>
+        <lastmod>2022-04-15T04:51:40.687Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -122,14 +130,6 @@
 
     <url>
         <loc>https://ericclose.github.io/active-Windows-10-with-digital-license.html</loc>
-        <lastmod>2022-04-15T04:51:40.687Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/Windows-diskpart-tutorial.html</loc>
         <lastmod>2022-04-15T04:51:40.687Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -161,6 +161,14 @@
     </url>
 
     <url>
+        <loc>https://ericclose.github.io/StarUML-3-registration.html</loc>
+        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://ericclose.github.io/Pixel-repairs-and-carriers.html</loc>
         <lastmod>2022-04-15T04:51:40.686Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -170,14 +178,6 @@
 
     <url>
         <loc>https://ericclose.github.io/R619AC-OpBoot-and-OpenWrt-flashing.html</loc>
-        <lastmod>2022-04-15T04:51:40.686Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/StarUML-3-registration.html</loc>
         <lastmod>2022-04-15T04:51:40.686Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
